@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1553984840-b8cbc34f5215?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwNzgwNDYzNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+
+.caixa-maior{
+  background: black;
+  opacity: 0.6;
+  padding: 20px;
+  border-radius: 20px;
+  width: 95%;
+  max-width: 450px;
+  
+}
+.input-cidade{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: rgba(76, 76, 76, 0.4);
+  color: white;
+  width: calc(100% - 50px);
+}
+
+.botao-busca{
+  border: none;
+  outline: none;
+  padding: 0.9px;
+  background-color: rgba(76, 76, 76, 0.9);
+  cursor: pointer;
+  border-radius: 50px;
+  float: right;
+  
+}
+
+.icone-busca{
+  width: 28px;
+}
+
+.cidade{
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+.temp{
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.caixa-menor{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.texto-previsao{
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.umidade{
+  margin-top: 20px;
+  padding: 5px;
+}
